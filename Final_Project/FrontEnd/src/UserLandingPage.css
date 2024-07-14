@@ -1,0 +1,46 @@
+.user-landing-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.user-navigation {
+  width: 100%;
+  background: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+.user-navigation ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.user-navigation li {
+  margin: 0;
+}
+
+.user-navigation a, .user-navigation button {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+}
+
+.user-navigation button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.user-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.user-content h1 {
+  margin-top: 0;
+}

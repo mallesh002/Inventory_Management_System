@@ -1,0 +1,48 @@
+.navigation {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    overflow: hidden;
+    z-index: 1000;
+  }
+  
+  .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation li {
+    display: block;
+  }
+  
+  .navigation li a, .navigation li button {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .navigation li a:hover, .navigation li button:hover {
+    background-color: #111;
+  }
+  
+  .navigation li button {
+    width: 100%;
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .navigation li button:hover {
+    background-color: #111;
+  }
+  
